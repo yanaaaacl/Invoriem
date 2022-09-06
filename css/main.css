@@ -1,0 +1,10 @@
+@import "./reset.css";
+
+
+/*  font-family: 'Work Sans', sans-serif; */
+/* font-family: 'Gilroy', sans-serif; */
+
+body{
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+}
