@@ -1,4 +1,5 @@
-@import "./reset.css";
+@import './reset.css';
+@import './fonts/Gilroy/stylesheet.css';
 
 
 /*  font-family: 'Work Sans', sans-serif; */
@@ -7,4 +8,105 @@
 body{
     font-family: 'Gilroy', sans-serif;
     font-weight: 500;
+}
+.container{
+max-width: 1750px;
+padding: 0 15px;
+margin: 0 auto;
+ 
+}
+.header{
+    min-height: 100vh;
+    background-image: url(./../img/header/background-image.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.header__top{
+padding: 44px 0;
+margin-bottom: 126px;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+
+}
+
+.nav__list{
+display: flex;
+align-items: center;
+column-gap: 118px;
+list-style-type: none;
+}
+
+.link{
+    color: #114455;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 800;
+    
+
+}
+.btn{
+    color: #114455;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 800;
+    border: 1px solid #114455;
+    border-radius: 2px;
+    padding: 10px 24px;
+    display: inline-block;
+    position: relative;
+    padding-right: 72px;
+
+
+}
+.header__content{
+max-width: 1060px;
+}
+.header__title{
+  
+font-weight: 800;
+color:#114455;
+font-size: 80px;
+margin-bottom: 48px;
+}
+.header__text{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 39px;
+    margin-bottom: 72px;
+    color: #1F1F1F;
+}
+.header__btn{
+
+}
+
+.btn--big{
+padding: 14px 32px;
+padding-right: 80px;
+
+}
+.btn--dark{
+    background-color: #114455;
+    color: #fff;
+}
+.btn--dark::after{
+    background-image: url(./../img/icons/arrow\ white.svg);
+   
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(./../img/icons/arrow\ black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+     
 }
